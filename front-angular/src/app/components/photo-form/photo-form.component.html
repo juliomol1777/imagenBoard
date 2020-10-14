@@ -14,7 +14,7 @@
                 </div>
                 <input type="file" class="d-none" (change)="onPhotoSelected($event)" #photoInput>
                 <img [src]="photoSelected || 'assets/no-imagen.png'" class="img-fluid" alt="No image" (click)="photoInput.click()">
-                <button class="btn btn-primary btn-block"></button>
+                <button class="btn btn-primary btn-block">Subir</button>
             </form>
         </div>
     </div>

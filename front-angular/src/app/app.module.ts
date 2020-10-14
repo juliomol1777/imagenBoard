@@ -7,6 +7,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { PhotoFormComponent } from './components/photo-form/photo-form.component';
 import { PhotoPreviewComponent } from './components/photo-preview/photo-preview.component';
 import { PhotoListComponent } from './components/photo-list/photo-list.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PhotoListComponent } from './components/photo-list/photo-list.component
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
